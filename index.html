@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ky">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game - Эстутум Оюну</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h2>Эстутум Оюну 🧠</h2>
+        
+        <div id="authBox" class="auth-box">
+            <input type="text" id="playerName" placeholder="Атыңызды жазыңыз...">
+            <button id="startBtn">Баштоо</button>
+        </div>
+
+        <div id="gameActive" style="display: none;">
+            <p>Оюнчу: <span id="displayName"></span> | Кадамдар: <span id="movesText">0</span></p>
+            <div id="grid" class="grid"></div>
+        </div>
+
+        <hr>
+        <h3>Жеңүүчүлөр Тизмеси (add / delete)</h3>
+        <ul id="leaderboard"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
